@@ -10,7 +10,8 @@ The script returns 'exit 0' for is ok and 'exit 1' for fail.
 
 You can us this in you own script like this:
 
-```./check_revoke.sh www.umm.uni-heidelberg.de
+```
+./check_revoke.sh www.umm.uni-heidelberg.de
 R=$?
 if test $R -eq 0 
 then
@@ -20,7 +21,8 @@ fi
 
 
 ## check_revoke.sh
-```#!/bin/bash
+```
+#!/bin/bash
 
 #
 # Online Certification Checker
