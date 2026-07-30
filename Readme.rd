@@ -1,7 +1,7 @@
 # Skript for checking if a ssl certicate is revoked
 
 The script can check if a ssl certifcate is revoced and checks for valid days. 
-
+ 
 The script first gets the chain certificate and looks for the Certificate Revocation List (CRL). After downloading this it checks if the serial no of the certificate is in this list. 
 Checking the CRL list is the upto-date method. 
 If this fails the script tries to fetch the outdated way by using Online Certificate Status Protocol (OCSP).
@@ -9,6 +9,7 @@ If this fails the script tries to fetch the outdated way by using Online Certifi
 The script returns 'exit 0' for is ok and 'exit 1' for fail. 
 
 You can us this in you own script like this:
+
 ```
 ./check_revoke.sh www.umm.uni-heidelberg.de
 R=$?
