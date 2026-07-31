@@ -13,7 +13,7 @@ You can us this in you own script like this:
 ```
 ./check_revoke.sh www.umm.uni-heidelberg.de
 R=$?
-if test $R -eq 0 
+if test $R -eq 1
 then
   <renwe your certificate by ACME>
 fi
