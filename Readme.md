@@ -37,7 +37,8 @@ if test $# -gt 0
 then
         H=${args[0]}
 else
-        H="www.umm.uni-heidelberg.de"
+        H="www.umm.uni-heidelberg.de"    # CRL
+        #H="www.bohne-lang.de"           # OCSP
 fi
 
 #echo ">$H"
