@@ -167,7 +167,7 @@ X=$(check_enddate_valid)
 
 echo "($X)($Y)"
 
-if test $X -le 45 || ! test  "$Y" = "valid"
+if test $X -le 3 || ! test  "$Y" = "valid"
 then
         exit 1
 else
